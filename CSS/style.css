@@ -1,0 +1,189 @@
+.navbar-brand {
+  margin-left: 0.8rem;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  color: rgb(255, 225, 164);
+  /* color: red; */
+  position: absolute;
+  right: 10%;
+  top: 56%;
+  font-family: "Oswald", sans-serif;
+}
+.bckd {
+  opacity: 0.95;
+  margin-left: -11px;
+  width: 101.8%;
+}
+span {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  right: 10%;
+  top: 69%;
+  font-family: "Oswald", sans-serif;
+}
+.head2,
+.shead2 {
+  background-color: rgb(183, 238, 240);
+  width: 3%;
+  position: absolute;
+  right: 10%;
+  top: 78%;
+  font-family: "Oswald", sans-serif;
+}
+.shead2 {
+  width: 7%;
+  top: 79.3%;
+}
+.square {
+  position: absolute;
+  right: 10%;
+  top: 77%;
+  width: 17px;
+  height: 17px;
+  background-color: yellow;
+}
+
+.btn-warning {
+  position: absolute;
+  right: 10.5%;
+  top: 85%;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+}
+.second {
+  background-color: rgb(255, 255, 219);
+  text-align: center;
+  padding: 50px;
+}
+
+.cust {
+  margin-top: 15%;
+  width: 75%;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+.custb {
+  margin-top: 15%;
+  font-size: 1.2rem;
+}
+.histb {
+  width: 75%;
+  height: 54%;
+  border: 1px solid grey;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  left: 15%;
+  margin-top: 15%;
+}
+.third {
+  background-color: rgb(255, 234, 129);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .bckd {
+    opacity: 0.95;
+    margin-left: -11px;
+    width: 102.8%;
+    height: 60% !important;
+  }
+  h1 {
+    font-size: 3rem;
+    /* color: red; */
+    top: 35%;
+  }
+  span {
+    font-size: 1.3rem;
+    top: 54%;
+  }
+  .square {
+    top: 63%;
+    width: 15px;
+    height: 15px;
+  }
+  .head2 {
+    top: 67%;
+  }
+  .shead2 {
+    top: 68.3%;
+  }
+  .btn-warning {
+    position: absolute;
+    right: 10.5%;
+    top: 74%;
+    padding: 7px 10px;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-brand {
+    font-size: 1.7rem;
+  }
+  .bckd {
+    width: 102.8%;
+  }
+  h1 {
+    font-size: 3rem;
+    /* color: red; */
+    top: 39%;
+  }
+  span {
+    font-size: 1.1rem;
+    top: 51%;
+  }
+  .square {
+    top: 58%;
+    width: 14px;
+    height: 14px;
+  }
+  .head2 {
+    top: 58%;
+  }
+  .shead2 {
+    top: 59.3%;
+  }
+  .btn-warning {
+    top: 66%;
+    padding: 7px 10px;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .navbar-brand {
+    font-size: 1.7rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+    /* color: red; */
+    top: 34%;
+  }
+  span {
+    font-size: 1rem;
+    top: 44%;
+  }
+  .square {
+    top: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .head2 {
+    top: 49%;
+  }
+  .shead2 {
+    top: 50.3%;
+  }
+  .btn-warning {
+    top: 52%;
+    padding: 5px 7px;
+    font-size: 0.9rem;
+    right: 25%;
+  }
+}

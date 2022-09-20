@@ -1,0 +1,59 @@
+h1 {
+  /* background-color: red; */
+  margin-top: 3%;
+  margin-left: 38%;
+  font-size: 2.7rem;
+  /* color: red; */
+}
+.container {
+  width: 70%;
+  margin: 3%;
+  margin-left: 17%;
+  padding: 3%;
+  border: 1px solid rgb(189, 181, 181);
+  border-radius: 20px;
+  box-shadow: 7px 7px 7px gray;
+}
+
+.btn {
+  margin-top: 5%;
+  margin-left: 45%;
+  font-size: 1.1rem;
+}
+
+.img {
+  margin-bottom: 2%;
+  margin-left: 15%;
+  width: 300px;
+}
+.third {
+  background-color: rgb(255, 234, 129);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+thead tr {
+  background-color: rgb(233, 168, 46);
+}
+tbody tr:nth-child(even) {
+  background: rgb(255, 246, 164);
+}
+.tr2 {
+  margin-top: 4%;
+  margin-left: 5%;
+}
+.tr2 td {
+  /* border: 1px solid black;; */
+  padding: 10px;
+}
+
+.tr2 tr:nth-child(even) {
+  background: white;
+}
+
+.transfer {
+  margin-left: 16%;
+  margin-top: 2.3%;
+  font-size: 1rem;
+  padding: 5px;
+}

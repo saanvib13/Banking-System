@@ -1,0 +1,54 @@
+.main {
+  border: 1px solid rgb(205, 198, 198);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(62, 60, 60);
+  margin: 5%;
+  padding: 2%;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.one {
+  width: 50%;
+  height: 80%;
+  position: relative;
+  bottom: 110px;
+}
+
+.one img {
+  width: 100%;
+}
+
+.two {
+  margin-left: 5%;
+  width: 40%;
+  height: 100%;
+  position: relative;
+  top: 20px;
+  padding: 10px;
+}
+
+form {
+  margin: 8%;
+}
+form input {
+  font-size: 1.1rem;
+  width: 23rem;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+form select {
+  font-size: 1.1rem;
+  width: 23rem;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.btn {
+  position: absolute;
+  left:40%;
+  margin-top:5%;
+}
